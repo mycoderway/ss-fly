@@ -443,12 +443,11 @@ install() {
                 cleanup
                 exit 1
         fi      
-        echo -e "[${green}成功${plain}] 安装成功尽情冲浪！"
+        echo -e "[${green}成功${plain}] 嘻嘻,安装成功啦！"
         echo -e "你的服务器地址（IP）：\033[41;37m $(get_ip) \033[0m"
         echo -e "你的密码            ：\033[41;37m ${password} \033[0m"
         echo -e "你的端口            ：\033[41;37m ${port} \033[0m"
         echo -e "你的加密方式        ：\033[41;37m aes-256-cfb \033[0m"
-        echo -e "欢迎访问flyzy小站   ：\033[41;37m https://www.flyzy2005.com \033[0m"                   
 }
 
 cleanup() {
